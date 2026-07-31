@@ -2,70 +2,85 @@
 
 > A digital ring binder for notes you can actually move.
 
-Filler Paper is a personal project created to explore software engineering while building a product I would genuinely use.
+Filler Paper is a personal Software Engineering project inspired by the way I study with physical ring binders.
 
-The idea came from the way I study.
+Instead of forcing users to organize information before writing, it embraces a different philosophy:
 
-I love using physical ring binders because they let me write first and organize later. I can move pages, group subjects, rewrite notes, and constantly reorganize my study material as I learn.
+> **Capture first. Organize later.**
 
-Most note-taking apps don't work like that. They usually force you into folders, notebooks, or fixed hierarchies.
+The goal is to build a digital note-taking experience where structure adapts to knowledge instead of forcing knowledge into a predefined structure.
 
-Filler Paper aims to bring the flexibility of a physical ring binder into a digital experience.
+Besides being a product I genuinely want to use, this project also serves as a laboratory for learning Software Engineering, Domain Modeling, Object-Oriented Design and modern web development.
 
-## Current Goal
-
-The first version focuses on a single feature:
-
-- Create, edit and organize notes.
-
-Instead of trying to build a complete productivity suite, this repository serves as both:
-
-- a learning project while studying Software Engineering;
-- the foundation for a future product.
+---
 
 ## Tech Stack
 
 ### Backend
 
-- Java
-- Spring Boot
-- Spring Data JPA
+- Java 21
+- Spring Boot 4.1
+- Maven
 - PostgreSQL
 
 ### Frontend
 
-- Svelte
+- Node.js 22 LTS
+- Angular 22
+- TypeScript 6
 
-## Planned Features
+---
+
+## Project Structure
+
+```text
+filler-paper/
+├── backend/
+└── frontend/
+```
+
+## Getting Started
+
+### Backend
+
+```bash
+cd backend
+./mvnw spring-boot:run
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+ng serve
+```
+
+---
+
+## Documentation
+
+Technical documentation for each application:
+
+- `backend/HELP.md`
+- `frontend/HELP.md`
+
+---
+
+## Roadmap
 
 - Create notes
 - Edit notes
 - Delete notes
 - Search notes
 - Tags
-- Collections
+- Collections (Binders)
+- Dividers
 - Drag-and-drop organization
+- Markdown editor
 - Authentication
 - Responsive interface
 
-## Project Structure
+---
 
-```
-filler-paper/
-├── backend/
-└── frontend/
-```
-
-## Status
-
-🚧 Work in progress.
-
-The project is currently under active development while I study Java, Spring Boot, Object-Oriented Programming and modern frontend development.
-
-## Why "Filler Paper"?
-
-In a physical ring binder, filler paper is just paper.
-
-You decide where each page belongs.
-
-That's the experience this project tries to recreate.
+Developed by **[@TaniaDev](https://github.com/TaniaDev)** 🍋‍🟩
