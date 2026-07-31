@@ -62,8 +62,8 @@ ng serve
 
 Technical documentation for each application:
 
-- `backend/HELP.md`
-- `frontend/HELP.md`
+- `backend/README.md`
+- `frontend/README.md`
 
 ---
 
