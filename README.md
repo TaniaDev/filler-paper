@@ -20,6 +20,7 @@ Besides being a product I genuinely want to use, this project also serves as a l
 
 - Java 21
 - Spring Boot 4.1
+- Spring Data JPA
 - Maven
 - PostgreSQL
 
@@ -28,6 +29,7 @@ Besides being a product I genuinely want to use, this project also serves as a l
 - Node.js 22 LTS
 - Angular 22
 - TypeScript 6
+- SCSS
 
 ---
 
@@ -69,14 +71,15 @@ Technical documentation for each application:
 
 ## Roadmap
 
-- Create notes
-- Edit notes
-- Delete notes
-- Search notes
-- Tags
-- Collections (Binders)
-- Dividers
-- Drag-and-drop organization
+- Create pages
+- Edit pages
+- Delete pages
+- Create binders
+- Create dividers
+- Move and reorder pages and dividers
+- Search by titles, content and tags
+- Draft and Refined status
+- Trash and restoration
 - Markdown editor
 - Authentication
 - Responsive interface
