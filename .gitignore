@@ -1,0 +1,26 @@
+# Local-only workspace notes and plans
+/.local/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.jks
+
+# Logs
+*.log
+
+# Root IDE and editor files
+/.idea/
+/.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
